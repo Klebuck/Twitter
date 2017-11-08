@@ -1,0 +1,129 @@
+body{
+	margin: 0 auto;
+	background-image: url("../../assets/img/fondo.jpg"); /*pongo los puntitos antes del nombre para que vaya a la carpeta anterior*/
+}
+
+.encabezado{
+ 	background-color:  #00acee;
+ 	width: 100%;
+ 	height: 75px;
+ 	left: 0px;
+ 	position: fixed;
+ 	top:0px;
+
+ }
+
+h2{
+	font-family: 'Arvo', serif;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+
+
+
+.Cuadropresentacion{
+    background-color: white; 
+    position: relative;
+    left: 100px;
+    top: 65px;
+    width: 500px;
+    height: 250px;
+    border-radius: 10px;
+}
+.código{
+
+	font-size: 20px;
+	border-radius: 6px;
+	text-align: center;
+	color: #00acee;
+	margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 20px;
+
+
+}
+
+h1{
+	font-family: 'Arvo', serif;
+	position: relative;
+	left: 20px;
+	top: 20px;
+	color: black;
+}
+
+h3{
+	font-family: 'Arvo', serif;
+    width: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.Cuadrocomentarios{
+	background-color: white; 
+    position: absolute;
+    left: 650px;
+    top: 100px;
+    height: 220px;
+    width: 650px;
+    border-radius: 10px;
+}
+
+.tweet{
+	background-color: #00acee;
+	font-size: 20px;
+	border: 4px solid #FFF;
+	border-radius: 6px;
+	text-align: center;
+	color:white;
+	margin-left: 10px;
+    margin-right: 0px;
+    margin-top: 30px;
+
+}
+
+hr{
+    
+    margin-top: 15px;
+    width: 610px;
+    color: #00acee;
+}
+
+textarea {
+    resize: none;
+    margin-left: 20px;
+    margin-top: 25px;
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+}
+
+#comentariosabajo{ /*posicionamiento de la caja de tweet*/
+ 	
+ 	font-family: 'Arvo', serif;
+ 	font-size: 20px;
+ 	margin-left: 1em;
+    padding-top: 100px;
+    width: 1200px;
+    padding-left: 100px;
+    height: 80px;
+
+
+
+}
+
+.cajita{ /*Forma, color, largo de la caja del tweet*/
+
+	background-color: white;
+	padding-top: 25px;
+    padding-left: 100px;
+    border-radius: 10px;
+}
+
+#caracteres {
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Arvo', serif;
+	margin-left: 500px;
+    
+}
